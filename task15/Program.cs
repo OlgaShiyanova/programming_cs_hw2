@@ -36,8 +36,8 @@ bool checkdigit(int number)
     }
     else 
     {
-    Console.WriteLine("Не то ввели. Введите цифру от 1 до 7");
-    return false;
+    Console.WriteLine("Не то ввели. Введите цифру от 1 до 7");//если поменять
+    return false;//  эти строчки, не будет сообщения выводить
     }
 }
 
